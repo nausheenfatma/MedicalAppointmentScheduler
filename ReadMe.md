@@ -27,7 +27,7 @@ Appointments are processed by an orchestrator that executes stages sequentially,
 POST /run-pipeline → triggers workflow execution
 GET /appointments → fetch all appointments with current stage + status
 GET /exceptions → view escalated cases
-POST /resolve/{id} → resolve and resume workflow
+POST /resolve-exception/{id} → resolve and resume workflow
 POST /appointments → add new appointments (raw data)
 ```
 
