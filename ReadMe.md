@@ -1,4 +1,4 @@
-This is a free take-home assignment I received as a part of a non-NDA interview for a healthcare company
+This is a free take-home assignment I received as a part of a non-NDA for a healthcare company interview.
 
 # Problem Statement: Agentic Workflow Management System (Medical Appointments)
 
