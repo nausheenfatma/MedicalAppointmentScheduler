@@ -36,3 +36,12 @@ The design focuses on clear separation of concerns, extensibility for LLM-based 
 
 Adding screenshots of my FastAPI backend.
 
+![Fast Api Backend](fastapi_image.png)
+
+This is how my basic Human concierge UI would look like, where a human-in-the-loop would resolve in case an appointment is stuck in any stage
+
+![Human Conceirge](huma_conceirge_front_end.png)
+
+This is how my basic database table in PostgreSQL looks:
+
+![Postgres Backend](postgres_backend.png)
