@@ -1,4 +1,6 @@
-# Agentic Workflow Management System (Medical Appointments)
+This is a take-home assignment I received as a part of a free non-NDA interview for a healthcare company
+
+# Problem Statement: Agentic Workflow Management System (Medical Appointments)
 
 A lightweight agentic orchestration system that processes medical appointments through multiple intelligent stages, supports dynamic prioritization (heuristic + LLM-ready), and enables human-in-the-loop exception handling via a concierge UI.
 
@@ -15,7 +17,7 @@ A lightweight agentic orchestration system that processes medical appointments t
 *Human Concierge Resolution:* A human user must be able to interact with the Exception Queue to unblock the issue. Once resolved, the system should immediately update the appointment status to Cleared and resume workflow if necessary.
 
 ## Solution Design:
-This is lightweight system for medical appointment processing, where each appointment flows through a 6-stage pipeline (Intake, Insurance check, Clinical pre-check, Provider Matching, Outreach, and Final confirmation).
+I built a lightweight system for medical appointment processing, where each appointment flows through a 6-stage pipeline (Intake, Insurance check, Clinical pre-check, Provider Matching, Outreach, and Final confirmation).
 The system includes a dynamic priority engine that ranks appointments based on factors like VIP status, risk score, specialty, client type, and time sensitivity (with both rule-based and LLM-ready design).
 
 Appointments are processed by an orchestrator that executes stages sequentially, and any failures or edge cases are routed to a human-in-the-loop exception queue (Human Concierge) for resolution via UI or API.
